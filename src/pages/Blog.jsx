@@ -1,12 +1,16 @@
 import React from "react";
 
-const Blog = () => {
-    return 
-    (
-      <>
-    <h1>Blog Articles</h1>
-      </>
-    )
-  };
+function Blog() {
+  return ( <>
+    <h1 className='patients'>
+      
+      
+      hfhtc
+      </h1>
+  </>
+);
+  
+}
+
   
   export default Blog;

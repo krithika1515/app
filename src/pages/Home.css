@@ -1,0 +1,156 @@
+/* .container {
+    
+    display: grid;
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    height: 500px;
+
+
+
+}
+
+.columnalign {
+
+    display: grid;
+    
+
+
+     
+   
+    text-align:left ;
+    
+   
+    
+    width: 180vh;
+    height: 200px;
+  
+    
+    background-color: #6B7280;
+    
+    
+}
+.doc {
+    display: grid;
+    grid-area: 1/2 ;
+    
+    
+    
+    
+}
+.heading {
+       font-size: 40px; 
+       color: #1c5b90;
+       margin-top: 1px;
+       margin-bottom: 15px;
+       
+}
+.subhead {
+    font-size: 35px;
+    color: #1c5b90;
+    margin-top: 7px;
+    
+}
+.content1{
+  
+}
+.loc{
+    font-size: 50px;
+    color: olive;
+}
+.searchloc{
+    
+    padding: 11px 42px 11px 15px;
+    
+
+} */
+
+
+.container{
+    display: flex;
+    width: 960px;
+    height: 462.33px;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color:paleturquoise
+
+    
+    
+   
+}
+.columnalign{
+    width: 460px;
+    height: 440px;
+}
+.doc{
+    width: 456px;
+    height: 422.33px;
+}
+
+.title {
+    color: #186DB5;
+    font-size: 32px;
+    line-height: 54px;
+    font-weight: 600;
+    font-style:normal;
+    font-family: 'Poppins',sans-serif;
+     width: 456px;
+    height: 108px;
+    line-height: 54px;
+    margin: 0px 0px 8px;
+    
+
+        
+}
+.content1{
+    font-size: 0.9375rem;
+    color: #6B7280;
+    line-height: 1.5;
+    height: 90px;
+    width: 456px;
+    
+}
+input{
+    border: 1px solid rgba(16, 222, 253, 0.1);
+    box-shadow: 0px 4px 4px rgba(237, 237, 237, 0.25);
+    border-radius: 5px;
+    padding-right: 42px;
+
+    background: #ffffff;
+    padding: 11px 42px 11px 15px;
+    width: 456px;
+    height: 25px;
+
+}
+.form-control{
+    color: #333333;
+    font-size: 15px;
+
+    padding: 11px 15px;
+    display: block;
+    width: 70%; 
+    font-weight: 400;
+    line-height: 1.5;
+}
+.wrap{
+    display: flex;
+}
+.content2{
+    font-size: 0.9375rem;
+    color: #6B7280;
+    line-height: 1.5;
+    display:grid;
+    grid-template-columns: auto;
+   
+
+    
+}
+.content3{
+    font-size: 0.9375rem;
+    color: #6B7280;
+    line-height: 1.5;
+    display:grid;
+   grid-template-columns: auto;
+}
